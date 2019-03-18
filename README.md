@@ -29,6 +29,7 @@ In order to get a solution for a problem you can run the tests in VS Test explor
 * Delete the call to Greet();
 * Call the class that represents the problem you wish to solve with the required input parameters. Set the return value to a variable.
 * Print out the output.
+
 For example: 
 ```
 	var result = CountingSundays.Solve(DateTime.Now.Subtract(TimeSpan.FromYears(1)), DateTime.Now);
